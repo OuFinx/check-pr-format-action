@@ -5837,7 +5837,7 @@ function _checkPullRequestFormat(expressions, body) {
     }
   }
 
-  return compiled.length === matches;
+  return matches > 0;
 }
 
 (function () {

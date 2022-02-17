@@ -60,7 +60,7 @@ function _checkPullRequestFormat(expressions: string[], body: string): boolean {
       matches += 1;
     }
   }
-  return compiled.length === matches;
+  return matches > 0;
 }
 
 

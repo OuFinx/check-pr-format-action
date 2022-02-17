@@ -58,7 +58,7 @@ function _checkPullRequestFormat(expressions, body) {
             matches += 1;
         }
     }
-    return compiled.length === matches;
+    return matches > 0;
 }
 (function () {
     try {
